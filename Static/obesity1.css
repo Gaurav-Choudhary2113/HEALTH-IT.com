@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(to top, rgba(0,0,0,0),rgba(58, 169, 255,0.8)), url(../Static/Media/health-topics-2.jpg);
+    background-size: cover;
+    width: 99%;
+    height: auto;
+    background-repeat: no-repeat;
+    
+}
+.Heading{
+    
+    text-align: center;
+    font-family: 'Gloock', serif;
+    color: aliceblue;
+    margin-bottom: auto;
+    margin-top: 20px;
+    
+    
+}
+.innerheading{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 27px;
+    margin-left: 75px;
+    margin-top: 1px;
+    
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.my-button {
+        font-size: 90px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        width: 360px;
+        height: 70px;
+        margin-right: 80px;
+        margin-left: 80px;
+        background-color: #1d94de;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 12px 24px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0px 4px 6px rgba(37, 37, 37, 0.5)
+}
+  
+.my-button:hover {
+    background-image: linear-gradient(to bottom right, #1770a8, #1773a5);
+}
+ 
+  
